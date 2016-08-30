@@ -1,2 +1,3 @@
-# Creator
-This website was designed by [Ted Xiao](www.tedxiao.me) based on the Landing Page theme from Start Bootstrap.
+This website was created by Kaitlen Nguyen and Ted Xiao for DiversaTech. DiversaTech is a student organization organization at UC Berkeley. Our goal is to challenge and inspire interdisciplinary students to excel in technology careers and foster a diverse environment for people of all academic backgrounds to collaborate and create unexpected outcomes.
+
+To learn more about DiversaTech, visit www.diversa.tech!
