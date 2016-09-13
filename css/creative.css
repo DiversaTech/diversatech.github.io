@@ -44,13 +44,20 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background: -moz-linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* ff3.6+ */
+  background-color: #fda128
+}
+      
+.bg-secondary {
+    background: -moz-linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* ff3.6+ */
 background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(253,161,40,1)), color-stop(100%, rgba(255,248,222,1))); /* safari4+,chrome */
 background: -webkit-linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* safari5.1+,chrome10+ */
 background: -o-linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* opera 11.10+ */
 background: -ms-linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* ie10+ */
 background: linear-gradient(45deg, rgba(253,161,40,1) 0%, rgba(255,248,222,1) 100%); /* w3c */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF8DE', endColorstr='#fda128',GradientType=1 ); /* ie6-9 */
+          
+    }
+      
     
 }
 .bg-dark {
