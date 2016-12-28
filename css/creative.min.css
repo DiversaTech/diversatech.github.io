@@ -1,6 +1,83 @@
 .bg-third {
     background-color: #FFF8DE
     }
+
+    .alert {
+      border: 0;
+      border-radius: 0;
+      padding: 20px 15px;
+      line-height: 20px;
+    }
+    .alert b {
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    .alert, .alert.alert-default {
+      background-color: white;
+      color: #ffffff;
+    }
+    .alert a, .alert .alert-link, .alert.alert-default a, .alert.alert-default .alert-link {
+      color: #ffffff;
+    }
+    .alert.alert-inverse {
+      background-color: #4558be;
+      color: contrast-color(#3f51b5, #000000, #ffffff);
+    }
+    .alert.alert-inverse a, .alert.alert-inverse .alert-link {
+      color: contrast-color(#3f51b5, #000000, #ffffff);
+    }
+    .alert.alert-primary {
+      background-color: #a72abd;
+      color: #ffffff;
+    }
+    .alert.alert-primary a, .alert.alert-primary .alert-link {
+      color: #ffffff;
+    }
+    .alert.alert-success {
+      background-color: #55b559;
+      color: #ffffff;
+    }
+    .alert.alert-success a, .alert.alert-success .alert-link {
+      color: #ffffff;
+    }
+    .alert.alert-info {
+      background-color: #0ab1fc;
+      color: #ffffff;
+    }
+    .alert.alert-info a, .alert.alert-info .alert-link {
+      color: #ffffff;
+    }
+    .alert.alert-warning {
+      background-color: #fbc53c;
+      color: #ffffff;
+    }
+    .alert.alert-warning a, .alert.alert-warning .alert-link {
+      color: #ffffff;
+    }
+    .alert.alert-danger {
+      background-color: #f55145;
+      color: #ffffff;
+    }
+    .alert.alert-danger a, .alert.alert-danger .alert-link {
+      color: #ffffff;
+    }
+    .alert-info, .alert-danger, .alert-warning, .alert-success {
+      color: #ffffff;
+    }
+    .alert-default a, .alert-default .alert-link {
+      color: rgba(0,0,0, 0.87);
+    }
+    .alert .alert-icon {
+      display: block;
+      float: left;
+      margin-right: 15px;
+    }
+    .alert .alert-icon i {
+      margin-top: -7px;
+      top: 5px;
+      position: relative;
+    }
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2016 Start Bootstrap
