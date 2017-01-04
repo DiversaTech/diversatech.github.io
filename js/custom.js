@@ -5,6 +5,4 @@ $(document).ready(function() {
     $('#footer-container').load('footer.html');
     // parallax
     $('.parallax').parallax();
-    // updating website message
-    Materialize.toast('Contents Update Soon!', 2000);
 });
