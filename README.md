@@ -1,3 +1,2 @@
-This website was created by Kaitlen Nguyen and Ted Xiao for DiversaTech. DiversaTech is a student organization organization at UC Berkeley. Our goal is to challenge and inspire interdisciplinary students to excel in technology careers and foster a diverse environment for people of all academic backgrounds to collaborate and create unexpected outcomes.
-
-To learn more about DiversaTech, visit www.diversa.tech!
+# DiversaTech Consulting
+We want to connect students of all majors with the technology industry by exposing non-engineering majors to coding curriculum. Our goal is to create an inclusive and collaborative environment for learning computer science while inspiring interdisciplinary students to excel in technology careers through workshops, coding sessions, CS tutoring, and company recruitment events. We want to make learning computer science fun and social, while also exposing students to different avenues for involvement in the tech sector.

@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="css/materialize.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--uncomment the following two lines for testing nav.html purposes-->
+<!-- <script src="js/jquery-3.1.1.js"></script>
+     <script src="js/materialize.js"></script> -->
+
+<div class="navbar-fixed">
+
+    <ul id="about-dropdown" class="dropdown-content">
+      <li><a href="index.html#overview">Overview</a></li>
+      <li><a href="index.html#leadership">Leadership</a></li>
+      <li><a href="index.html#faculties">Faculties</a></li>
+    </ul>
+
+    <ul id="companies-dropdown" class="dropdown-content">
+      <li><a href="companies.html#clients">Clients</a></li>
+      <li><a href="companies.html#sponsors">Sponsors</a></li>
+      <li><a href="companies.html#resources">Resources</a></li>
+      <li><a href="companies.html#request">Request</a></li>
+    </ul>
+
+    <ul id="events-dropdown" class="dropdown-content">
+      <li><a href="events.html#recruitment">Recruiting</a></li>
+      <li><a href="events.html#workshops">Workshops</a></li>
+    </ul>
+
+
+
+    <nav class="white">
+      <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo valign-wrapper">
+              <img id="logo" class="responsive-img" width="170px" src="img/logo/DiversaTech.png"> </img>
+          </a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse grey-text text-darken-2"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="dropdown-button grey-text text-darken-2" href="index.html" data-activates="about-dropdown">About</a></li>
+            <li><a class="dropdown-button grey-text text-darken-2" href="companies.html" data-activates="companies-dropdown">Companies</a></li>
+            <li><a class="dropdown-button grey-text text-darken-2" href="events.html" data-activates="events-dropdown">Events</a></li>
+            <li><a class="grey-text text-darken-2" href="contact.html">Contact</a></li>
+            <li><a class="waves-effect waves-light btn orange darken-1" href="apply.html">Apply</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="about.html">About</a></li>
+            <li><a href="companies.html">Companies</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="apply.html">Apply</a></li>
+          </ul>
+      </div>
+    </nav>
+</div>
+
+<!--Import nav.js-->
+<script type="text/javascript" src="js/nav.js"></script>
