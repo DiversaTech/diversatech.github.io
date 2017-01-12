@@ -196,6 +196,7 @@
   display: none;
 }
 
+/* add-on */
 body >:not(.pace),
 body:before,
 body:after {
