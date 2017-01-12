@@ -210,5 +210,6 @@ body:not(.pace-done) >:not(.pace),
 body:not(.pace-done):before,
 body:not(.pace-done):after {
     /*display: none;*/
-    opacity: 0.4;
+    /* defualt 0.4 */
+    opacity: 0;
 }
