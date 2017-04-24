@@ -1,4 +1,4 @@
 $(document).ready(function() {
     // updating website message
-    Materialize.toast('Welcome to DiversaTech Consulting!', 2000);
+    Materialize.toast('Fall 2018 Update coming soon!', 4000);
 });
