@@ -49,6 +49,16 @@
   <link rel="stylesheet" href="css/overview.css">
   <!--Import custom_tab.css-->
   <link rel="stylesheet" href="css/custom_tab.css">
+  <!--Import uploadcare_button_customization.css-->
+  <link rel="stylesheet" href="css/uploadcare_button_customization.css">
+
+  <!-- uploadcare script -->
+  <script>
+  UPLOADCARE_LOCALE = "en";
+  UPLOADCARE_TABS = "file gdrive dropbox";
+  UPLOADCARE_PUBLIC_KEY = "23f6ef68225c8b870f99";
+  </script>
+  <script charset="utf-8" src="https://ucarecdn.com/libs/widget/3.1.2/uploadcare.full.min.js"></script>
 
 </head>
 
@@ -74,33 +84,33 @@
         <div class="container">
           <div class="tagline">
               <div class="row center">
-              <h2 class="uppercase">Summer 2018 Internship Application</h2>
+              <h2 class="uppercase">Fall 2018 Part-Time Internship Application</h2>
               </div>
           </div>
           <div class="row">
-            <form method="post" action="blue_umbrella_application.php">
+            <form method="post" action="https://formspree.io/s92014721@berkeley.edu">
               <div class="row">
                 <div class="col s12 m6">
                   <div class="input-field">
-                    <input id="first_name" type="text">
+                    <input id="first_name" type="text" name="first name">
                     <label for="first_name">First Name</label>
                   </div>
                 </div>
                 <div class="col s12 m6">
                   <div class="input-field">
-                    <input id="last_name" type="text">
+                    <input id="last_name" type="text" name="last name">
                     <label for="last_name">Last Name</label>
                   </div>
                 </div>
                 <div class="col s12">
                   <div class="input-field">
-                    <input id="email" type="email">
+                    <input id="email" type="email" name="email">
                     <label for="email">Email</label>
                   </div>
                 </div>
                 <div class="col m6 s12">
                   <div class="input-field">
-                    <select>
+                    <select name="Year">
                       <option value="" disabled selected>Select Your Year</option>
                       <option value="Freshman">Freshman</option>
                       <option value="Sophomore">Sophomore</option>
@@ -114,7 +124,7 @@
                 </div>
                 <div class="col m6 s12">
                   <div class="input-field">
-                    <select>
+                    <select name="DiversaTech Memmbership Status">
                       <option value="" disabled selected>Select Your Membership Status</option>
                       <option value="Executive">Executive</option>
                       <option value="Project Manager">Project Manager</option>
@@ -125,29 +135,13 @@
                     <label>DiversaTech</label>
                   </div>
                 </div>
-                <div class="col m6 s12">
+                <div class="col s12">
+                  <label> Upload Your Resume and Cover Letter </label>
                   <div class="file-field input-field">
-                    <div class="btn orange darken-1">
-                      <span>RESUME</span>
-                      <input type="file">
-                    </div>
-                    <div class="file-path-wrapper">
-                      <input class="file-path validate" type="text" placeholder="Upload your resume here">
-                    </div>
+                      <input type="hidden" role="uploadcare-uploader" name="Resume and Cover Letter" data-multiple="true"/>
                   </div>
                 </div>
-                <div class="col m6 s12">
-                  <div class="file-field input-field">
-                    <div class="btn orange darken-1">
-                      <span>COVER LETTER</span>
-                      <input type="file">
-                    </div>
-                    <div class="file-path-wrapper">
-                      <input class="file-path validate" type="text" placeholder="Upload your cover letter here">
-                    </div>
-                  </div>
-                </div>
-                <button class="btn right waves-effect waves-light disabled orange darken-1" type="submit" name="action">Submit
+                <button class="btn right waves-effect waves-light orange darken-1" type="submit" name="action" value="Send">Submit
                   <i class="material-icons right">send</i>
                 </button>
               </div>
