@@ -79,21 +79,31 @@
           </div>
           <div class="row">
             <!-- <p>Content update soon!</p> -->
-            <form class="col s12">
+            <form>
               <div class="row">
-                <div class="input-field col s6">
-                  <input id="first_name" type="text" class="validate">
-                  <label for="first_name">First Name</label>
-                </div>
-                <div class="input-field col s6">
-                  <input id="last_name" type="text" class="validate">
-                  <label for="last_name">Last Name</label>
+                <div class="input-field">
+                  <input id="full_name" type="text">
+                  <label for="full_name">Full Name</label>
                 </div>
               </div>
               <div class="row">
-                <div class="input-field col s12">
-                  <input id="email" type="email" class="validate">
+                <div class="input-field">
+                  <input id="email" type="email">
                   <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field">
+                  <select>
+                    <option value="" disabled selected>Select your year</option>
+                    <option value="Freshman">Freshman</option>
+                    <option value="Sophomore">Sophomore</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                    <option value="Graduate">Grduate</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <label>Year</label>
                 </div>
               </div>
               <div class="row">
@@ -138,5 +148,7 @@
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <!--Import custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
+<!--Import form_select_initalization.js-->
+<script type="text/javascript" src="js/form_select_initalization.js"></script>
 <!--Import google_analytics.js-->
 <script type="text/javascript" src="js/google_analytics.js"></script>
