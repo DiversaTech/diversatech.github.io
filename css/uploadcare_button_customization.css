@@ -1,8 +1,8 @@
 <style>
-.uploadcare-widget-button-open {
+.uploader-orange-button .uploadcare--widget__button_type_open {
     background-color: #fb8c00;
 }
-.uploadcare-widget-button-open:hover {
+.uploader-orange-button .uploadcare--widget__button_type_open:hover {
     background-color: #ffa726;
 }
 </style>
