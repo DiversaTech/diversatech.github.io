@@ -81,54 +81,73 @@
             <!-- <p>Content update soon!</p> -->
             <form>
               <div class="row">
-                <div class="input-field">
-                  <input id="full_name" type="text">
-                  <label for="full_name">Full Name</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <input id="email" type="email">
-                  <label for="email">Email</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="input-field">
-                  <select>
-                    <option value="" disabled selected>Select your year</option>
-                    <option value="Freshman">Freshman</option>
-                    <option value="Sophomore">Sophomore</option>
-                    <option value="Junior">Junior</option>
-                    <option value="Senior">Senior</option>
-                    <option value="Graduate">Grduate</option>
-                    <option value="Other">Other</option>
-                  </select>
-                  <label>Year</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="file-field input-field">
-                  <div class="btn orange darken-1">
-                    <span>RESUME</span>
-                    <input type="file">
-                  </div>
-                  <div class="file-path-wrapper">
-                    <input class="file-path validate" type="text" placeholder="Upload your resume here">
+                <div class="col s12 m6">
+                  <div class="input-field">
+                    <input id="first_name" type="text">
+                    <label for="first_name">First Name</label>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="file-field input-field">
-                  <div class="btn orange darken-1">
-                    <span>COVER LETTER</span>
-                    <input type="file">
-                  </div>
-                  <div class="file-path-wrapper">
-                    <input class="file-path validate" type="text" placeholder="Upload your cover letter here">
+                <div class="col s12 m6">
+                  <div class="input-field">
+                    <input id="last_name" type="text">
+                    <label for="last_name">Last Name</label>
                   </div>
                 </div>
-              </div>
-              <div class="row">
+                <div class="col s12">
+                  <div class="input-field">
+                    <input id="email" type="email">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="input-field">
+                    <select>
+                      <option value="" disabled selected>Select Your Year</option>
+                      <option value="Freshman">Freshman</option>
+                      <option value="Sophomore">Sophomore</option>
+                      <option value="Junior">Junior</option>
+                      <option value="Senior">Senior</option>
+                      <option value="Graduate">Grduate</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <label>Year</label>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="input-field">
+                    <select>
+                      <option value="" disabled selected>Select Your Membership Status</option>
+                      <option value="Executive">Executive</option>
+                      <option value="Project Manager">Project Manager</option>
+                      <option value="Consultant">Consultant</option>
+                      <option value="Applying Fall 2018">Applying Fall 2018</option>
+                      <option value="Not DiversaTech Member">Not a DiversaTech Member</option>
+                    </select>
+                    <label>DiversaTech</label>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="file-field input-field">
+                    <div class="btn orange darken-1">
+                      <span>RESUME</span>
+                      <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text" placeholder="Upload your resume here">
+                    </div>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="file-field input-field">
+                    <div class="btn orange darken-1">
+                      <span>COVER LETTER</span>
+                      <input type="file">
+                    </div>
+                    <div class="file-path-wrapper">
+                      <input class="file-path validate" type="text" placeholder="Upload your cover letter here">
+                    </div>
+                  </div>
+                </div>
                 <button class="btn right waves-effect waves-light disabled orange darken-1" type="submit" name="action">Submit
                   <i class="material-icons right">send</i>
                 </button>
