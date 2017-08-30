@@ -1,4 +1,4 @@
 $(document).ready(function() {
     // updating website message
-    Materialize.toast('Welcome to DiversaTech!', 4000);
+    Materialize.toast('Fall 2017 Application is now live!', 4000);
 });

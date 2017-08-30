@@ -1,4 +1,4 @@
 $(document).ready(function() {
     // apply message
-    Materialize.toast('Applications will be released 8/31', 5000);
+    Materialize.toast('Application is now live!', 5000);
 });
