@@ -67,7 +67,7 @@
 
 <body>
     <!--main content-->
-    <!--Recruitment header-->
+    <!--blue umbrella header-->
     <a id="blue-umbrella" class="anchor"></a>
     <div class="parallax-container">
       <div class="parallax">
@@ -79,16 +79,99 @@
         <img style="width:100%;" src="img/events/recruitment_background.jpeg"></img>
       </div>
     </div>
-    <!--Recruitment contents-->
-    <section id="recruitment-conents" class="overview">
+    <!--blue umbrella contents-->
+    <section id="blue-umbrella-conents" class="overview">
         <div class="container">
           <div class="tagline">
               <div class="row center">
-              <h2 class="uppercase">Fall 2017 Part-Time Internship Application</h2>
+              <h2 class="uppercase">About Blue Umbrella</h2>
               </div>
           </div>
           <div class="row">
-            <p> Thank you for applying for Blue Umbrella's Fall 2017 Part-Time Internship program, we will contact you soon! </p>
+            <p> Blue Umbrella Labs is an Autism Solutions Accelerator built an autism innovations database compiled through almost two decades of experience in the autism sector by CEO Dan Feshbach and advisors. We seek to forge connections between healthcare providers/corporates and emerging autism innovation startups to ensure the growing ASD community finds the best autism solutions in the midst of rapidly evolving science and technology. Our goal is to use our database to inform large institutions on the brightest rising innovations, and give groundbreaking products access to exposure and funding in order to help those who need it.</p>
+            <a class="waves-effect waves-light btn z-depth-0 orange darken-1" target="_blank" href="sponsor/Blue_Umbrella.pdf">Learn More</a>
+          </div>
+          <div class="tagline">
+              <div class="row center">
+              <h2 class="uppercase">Part-Time Internship Program</h2>
+              </div>
+          </div>
+          <div class="row">
+            <p>The program will be centered around: editing and adding to the database, establishing the website contents, researching and interviewing rising startups, creating a newsletter for corporates, institutions and startups in the autism community, and an autism global market report.</p>
+            <p>We encourage everyone interested in helping the autism community while also gaining exposure to the healthcare tech industry to apply!<p>
+          </div>
+          <div class="tagline">
+              <div class="row center">
+              <h2 class="uppercase">Fall 2017 Part-Time Internship Program Application</h2>
+              </div>
+          </div>
+          <div class="row">
+            <form method="post" action="https://formspree.io/jihoonan@berkeley.edu">
+              <input type="hidden" name="_subject" value="[Blue Umbrella] Fall 2017 Internship Application Submission" />
+              <input type="hidden" name="_next" value="//diversatech.org/blue_umbrella_thanks.html" />
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="input-field">
+                    <input id="first_name" type="text" name="first name">
+                    <label for="first_name">First Name</label>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                  <div class="input-field">
+                    <input id="last_name" type="text" name="last name">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="col s12">
+                  <div class="input-field">
+                    <input id="email" type="email" name="email">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="col s12">
+                  <div class="input-field">
+                    <input id="email" type="text" name="major">
+                    <label for="email">Major</label>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="input-field">
+                    <select name="Year">
+                      <option value="" disabled selected>Select Your Year</option>
+                      <option value="Freshman">Freshman</option>
+                      <option value="Sophomore">Sophomore</option>
+                      <option value="Junior">Junior</option>
+                      <option value="Senior">Senior</option>
+                      <option value="Graduate">Grduate</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <label>Year</label>
+                  </div>
+                </div>
+                <div class="col m6 s12">
+                  <div class="input-field">
+                    <select name="DiversaTech Memmbership Status">
+                      <option value="" disabled selected>Select Your Membership Status</option>
+                      <option value="Executive">Executive</option>
+                      <option value="Project Manager">Project Manager</option>
+                      <option value="Consultant">Consultant</option>
+                      <option value="Applying Fall 2018">Applying Fall 2018</option>
+                      <option value="Not DiversaTech Member">Not a DiversaTech Member</option>
+                    </select>
+                    <label>DiversaTech</label>
+                  </div>
+                </div>
+                <div class="col s12">
+                  <label> Upload Your Resume and Cover Letter </label>
+                  <div class="file-field input-field">
+                    <input type="hidden" role="uploadcare-uploader" name="Resume and Cover Letter" data-multiple="true"/>
+                  </div>
+                </div>
+                <button class="btn right waves-effect waves-light orange darken-1" type="submit" name="action" value="Send">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
     </section>
@@ -105,5 +188,7 @@
 <script type="text/javascript" src="js/custom.js"></script>
 <!--Import form_select_initalization.js-->
 <script type="text/javascript" src="js/form_select_initalization.js"></script>
+<!--Import blue_umbrella_thank_you_message.js-->
+<script type="text/javascript" src="js/blue_umbrella_thank_you_message.js"></script>
 <!--Import google_analytics.js-->
 <script type="text/javascript" src="js/google_analytics.js"></script>
