@@ -6,6 +6,12 @@
     position: relative;
 }
 
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+}
+
 .parallax-container .title-cover {
     width: 100%;
     height: 180px;
