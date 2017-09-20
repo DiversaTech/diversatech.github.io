@@ -1,0 +1,115 @@
+.cover-wrapper, footer.page-footer {
+    background-position: center center;
+}
+
+.cover-wrapper, a.anchor, div#main-wrapper {
+    position: relative;
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+}
+
+.parallax-container .title-cover {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+.parallax-container .title-cover .text-container {
+    width: 100%;
+    padding-left: .8em;
+    padding-right: .8em;
+    z-index: 999;
+}
+.parallax-container .title-cover .text-container h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: .2em;
+}
+.parallax-container .title-cover .text-container p {
+    font-family: Gidole, sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    opacity: .9;
+    max-width: 80%;
+    margin: .4em auto auto;
+}
+
+.cover-wrapper {
+    height: 500px;
+    background-image: url(../img/cover2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-wrapper canvas.particles-js-canvas-el {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.cover-wrapper .cover {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.cover-wrapper .cover img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 500px;
+}
+.cover-wrapper .cover .text-container {
+    margin: auto;
+    width: 70%;
+    z-index: 1;
+}
+.cover-wrapper .cover .text-container h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.2em;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: auto auto 1.5rem;
+    width: 100%;;
+    }
+
+.cover-wrapper .cover .text-container p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    opacity: .9;
+    margin-top: .4em;
+    line-height: 1.8rem;
+}
+
+.cover-wrapper .cover .text-container h1 {
+    font-size: 3em;
+}
+.cover-wrapper .cover .text-container p {
+    font-size: 1.5em;
+}
+
+a.anchor {
+    display: block;
+    top: -64px;
+    visibility: hidden;
+}
+
+div.shade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2F3540;
+    opacity: .5;
+}
