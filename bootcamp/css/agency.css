@@ -127,7 +127,8 @@ img::-moz-selection {
 
 img.map {
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
 }
 
 #mainNav {
