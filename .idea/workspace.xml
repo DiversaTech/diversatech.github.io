@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a36ba1-863f-4929-8b85-315ade38431f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/anurag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/avanthika.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/emily.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/hannah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/julia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/michelle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/raaghav2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/shreya.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/sneha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/vibha.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Aayush_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Adam_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Debbie_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Dhruv_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Diana_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Emily_H_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Emily_X_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/G_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Hannah_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Jihoon_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Jimmy_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Karthik_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Katie_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Leon_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Michelle_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Neil_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Rahul_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Reina_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Ryan_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Sabrina_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Sakshi_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Shun_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Tony_copy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/Xander_copy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootcamp/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootcamp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/anurag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/emily.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/eric.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/hannah.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/jesse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/leila.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/sneha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/leadership/vibha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spring_2020/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spring_2020/collective_health.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spring_2020/quokka_brew.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spring_2020/sephora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spring_2020/snapchat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/companies/spring_2020/README" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="408" column="61" selection-start-line="408" selection-start-column="61" selection-end-line="408" selection-end-column="61" />
+            <state relative-caret-position="441">
+              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootcamp/css/agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -77,6 +42,15 @@
     <findStrings>
       <find>shreya</find>
       <find>anurag</find>
+      <find>vibha</find>
+      <find>palm-leaf</find>
+      <find>masthead</find>
+      <find>intro-text</find>
+      <find>map</find>
+      <find>corymap</find>
+      <find>service</find>
+      <find>h3</find>
+      <find>service-heading</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +59,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/bootcamp/css/agency.css" />
         <option value="$PROJECT_DIR$/bootcamp/index.html" />
       </list>
     </option>
@@ -118,13 +93,6 @@
               <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="diversatech.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diversatech.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="headshots" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -133,6 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -166,12 +135,12 @@
       <option name="presentableId" value="Default" />
       <updated>1577703176250</updated>
       <workItem from="1577703179711" duration="603000" />
-      <workItem from="1580981296029" duration="1052000" />
+      <workItem from="1580981296029" duration="3972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1655000" />
+    <option name="totallyTimeSpent" value="4575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -246,10 +215,20 @@
     <entry file="file://$PROJECT_DIR$/img/spring_2020/snapchat.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/img/map-image.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootcamp/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="408" column="61" selection-start-line="408" selection-start-column="61" selection-end-line="408" selection-end-column="61" />
+        <state relative-caret-position="441">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
         </state>
       </provider>
     </entry>
