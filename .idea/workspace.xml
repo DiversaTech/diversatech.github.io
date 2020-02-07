@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a36ba1-863f-4929-8b85-315ade38431f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/kevin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootcamp/img/headshots/samir.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootcamp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/companies/spring_2020/README" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            <state relative-caret-position="431">
+              <caret line="722" column="35" lean-forward="true" selection-start-line="722" selection-start-column="35" selection-end-line="722" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -30,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootcamp/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="4140">
               <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
             </state>
           </provider>
@@ -41,8 +41,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>shreya</find>
-      <find>anurag</find>
-      <find>vibha</find>
       <find>palm-leaf</find>
       <find>masthead</find>
       <find>intro-text</find>
@@ -51,6 +49,19 @@
       <find>service</find>
       <find>h3</find>
       <find>service-heading</find>
+      <find>julia</find>
+      <find>hannah</find>
+      <find>vibha</find>
+      <find>michael</find>
+      <find>michelle</find>
+      <find>emily</find>
+      <find>avanthika</find>
+      <find>samir</find>
+      <find>anurag</find>
+      <find>alexand</find>
+      <find>sneha</find>
+      <find>alexandra</find>
+      <find>kevin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
@@ -92,6 +103,13 @@
               <item name="diversatech.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diversatech.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diversatech.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="headshots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,14 +154,15 @@
       <updated>1577703176250</updated>
       <workItem from="1577703179711" duration="603000" />
       <workItem from="1580981296029" duration="3972000" />
+      <workItem from="1581035594372" duration="1590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4575000" />
+    <option name="totallyTimeSpent" value="6165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -203,32 +222,24 @@
         <state relative-caret-position="-6582" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/spring_2020/collective_health.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spring_2020/quokka_brew.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spring_2020/sephora.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/spring_2020/snapchat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/spring_2020/collective_health.png" />
+    <entry file="file://$PROJECT_DIR$/img/spring_2020/quokka_brew.png" />
+    <entry file="file://$PROJECT_DIR$/img/spring_2020/sephora.png" />
+    <entry file="file://$PROJECT_DIR$/img/spring_2020/snapchat.png" />
     <entry file="file://$PROJECT_DIR$/bootcamp/img/map-image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/css/agency.css">
+    <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
+        <state relative-caret-position="431">
+          <caret line="722" column="35" lean-forward="true" selection-start-line="722" selection-start-column="35" selection-end-line="722" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
+    <entry file="file://$PROJECT_DIR$/bootcamp/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        <state relative-caret-position="4140">
+          <caret line="276" column="21" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
         </state>
       </provider>
     </entry>
