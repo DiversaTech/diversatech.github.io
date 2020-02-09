@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a36ba1-863f-4929-8b85-315ade38431f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/kevin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/img/headshots/kevin.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootcamp/img/headshots/vibha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/img/headshots/vibha.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootcamp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bootcamp/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="326" column="47" selection-start-line="326" selection-start-column="47" selection-end-line="326" selection-end-column="47" />
+            <state relative-caret-position="337">
+              <caret line="114" column="163" selection-start-line="114" selection-start-column="163" selection-end-line="114" selection-end-column="163" />
             </state>
           </provider>
         </entry>
@@ -54,13 +52,13 @@
       <find>michelle</find>
       <find>emily</find>
       <find>avanthika</find>
-      <find>samir</find>
       <find>anurag</find>
       <find>alexand</find>
       <find>alexandra</find>
       <find>sneha</find>
       <find>michael</find>
       <find>kevin</find>
+      <find>samir</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,12 +152,12 @@
       <workItem from="1577703179711" duration="603000" />
       <workItem from="1580981296029" duration="3972000" />
       <workItem from="1581035594372" duration="1590000" />
-      <workItem from="1581038288872" duration="636000" />
+      <workItem from="1581038288872" duration="969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6801000" />
+    <option name="totallyTimeSpent" value="7134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -238,8 +236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootcamp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="326" column="47" selection-start-line="326" selection-start-column="47" selection-end-line="326" selection-end-column="47" />
+        <state relative-caret-position="337">
+          <caret line="114" column="163" selection-start-line="114" selection-start-column="163" selection-end-line="114" selection-end-column="163" />
         </state>
       </provider>
     </entry>
