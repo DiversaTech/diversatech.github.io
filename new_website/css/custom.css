@@ -38,14 +38,14 @@
   flex-direction: row;
 }
 
-.statistics-banner .col .statistics-title {
+.statistics-banner .statistics-title {
   margin-top: 1rem;
   color: #fb8c00;
   font-weight: 700;
 }
 
 .blockquote-footer::before {
-  content: none;
+  content: none !important;
 }
 
 .card.profile-card, .card.company-profile-card {
