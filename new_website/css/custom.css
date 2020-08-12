@@ -35,7 +35,8 @@
 
 .statistics-banner {
   width: 100%;
-  flex-direction: row;
+  flex-direction: row !important;
+  justify-content: center;
 }
 
 .statistics-banner .statistics-title {
