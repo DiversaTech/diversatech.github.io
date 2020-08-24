@@ -26,522 +26,172 @@
   <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
   <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/custom.css" rel="stylesheet">
 
   <!--Import Google Icon Font-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!--Import Google Font-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
-  <!--Import materialize css-->
-  <link rel="stylesheet" href="css/materialize.min.css">
-  <!--Import cover css-->
-  <link rel="stylesheet" href="css/cover.css">
-  <!--Import centering css-->
-  <link rel="stylesheet" href="css/centering.css">
-  <!--Import overview.css-->
-  <link rel="stylesheet" href="css/overview.css">
-  <!--Import custom_tab.css-->
-  <link rel="stylesheet" href="css/custom_tab.css">
-  <!--Import font awesome (for icons only)-->
+  <!--Import Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
 
-<!--navaigation bar-->
+<!--navigation bar-->
 <div id='nav-container'></div>
 
 <body>
-    <!--main content-->
-    <!--cover-->
-    <div class="cover-wrapper">
-    	<div class="cover valign-wrapper">
-    		<div class="text-container valign center">
-    			<h1 class="white-text">Tech Consulting meets <span class="orange-text text-darken-1">Diversity</span></h1>
-          <p class="white-text">DiversaTech is a student run technology consulting organization at UC Berkeley. We combine engineering, design, and business principles to create dynamic recommendations and strategies.</p>
-    		</div>
-    	</div>
-    	<div class="shade-overlay"></div>
-    </div>
-    <!--Overview Section-->
-    <!--Overview header/contents-->
-    <a id="overview" class="anchor"></a>
-    <section id="overview-contents" class="overview">
-        <!--Fall 2018 flyer-->
-        <div class="container">
-          <div class="row">
-              <!--overview header-->
-              <div class="tagline">
-                  <div class="row center">
-                      <h1 class="uppercase"> Spring 2020 Flyer</h1>
-                  </div>
-              </div>
-              <div class="col s12 m6">
-                <img class="materialboxed" width="100%" src="img/flyer/spring_2020/sp_2020_front.png">
-              </div>
-              <div class="col s12 m6">
-                <img class="materialboxed" width="100%" src="img/flyer/spring_2020/sp_2020_back.png">
-              </div>
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('img/home1.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Tech Consulting Meets Diversity</h3>
+            <p>UC Berkeley's unique, diverse tech consultancy.</p>
           </div>
         </div>
-        <div></div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <!--overview header-->
-                <div class="tagline">
-                    <div class="row center">
-                        <h1 class="uppercase">About Us</h1>
-                    </div>
-                </div>
-                <!--our vision-->
-                <div class="col s12 m6">
-                    <div class="tagline">
-                        <div class="row center">
-                            <h2 class="uppercase">Our Vision</h2>
-                        </div>
-                    </div>
-                    <p> DiversaTech fosters diversity of thought in the tech industry by creating unique experiences and projects that encourage students of all backgrounds to connect, collaborate, and create.</p>
-                </div>
-                <!--our mission-->
-                <div class="col s12 m6">
-                    <div class="tagline">
-                        <div class="row center">
-                            <h2 class="uppercase">Our Services</h2>
-                        </div>
-                    </div>
-                    <p> We form interdisciplinary consulting teams and develop strategic recommendations that address real industry challenges.</p>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <!--our methodology-->
-                <div class="col s12 m6">
-                    <div class="tagline">
-                        <div class="row center">
-                            <h2 class="uppercase">Our Uniqueness</h2>
-                        </div>
-                    </div>
-                    <p> We Think Differently. Each of our consulting teams is comprised of individuals from various disciplines across campus from humanities to STEM to bring an interdisciplinary approach to solving challenging industry problems. As much of today’s workforce, especially in tech, relies on cross team collaboration in order to successfully execute and launch a product, we feel it is important to emulate this interdisciplinary structure so the various perspectives on how to tackle a problem are brought to the table. While other consulting organizations are composed of mostly business/economics majors, we seek to channel the many ways Cal prepares students across different majors to analyze and solve problems that are otherwise largely ignored.</p>
-                </div>
-                <!--Who We Are-->
-                <div class="col s12 m6">
-                    <div class="tagline">
-                        <div class="row center">
-                            <h2 class="uppercase">Our Diversity</h2>
-                        </div>
-                    </div>
-                    <p>EECS / Computer Science</p>
-                    <div class="progress white">
-                        <div class="determinate orange darken-1" style="width: 90%"></div>
-                    </div>
-                    <p>Cognitive Science</p>
-                    <div class="progress white">
-                        <div class="determinate blue" style="width: 48%"></div>
-                    </div>
-                    <p>Math / Statistics</p>
-                    <div class="progress white">
-                        <div class="determinate green" style="width: 32%"></div>
-                    </div>
-                    <p>Business / Economics</p>
-                    <div class="progress white">
-                        <div class="determinate yellow" style="width: 72%"></div>
-                    </div>
-                    <p>Other Humanties</p>
-                    <div class="progress white">
-                        <div class="determinate grey" style="width: 88%"></div>
-                    </div>
-                    <p>Other Sciences</p>
-                    <div class="progress white">
-                        <div class="determinate red" style="width: 60%"></div>
-                    </div>
-                </div>
-            </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/home2.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Interdisciplinary Thinking</h3>
+            <p>Thinking outside of the box to design innovative and creative real-world solutions.</p>
+          </div>
         </div>
-    </section>
-    <!--Leadership Section-->
-    <!--Leadership header-->
-    <a id="leadership" class="anchor"></a>
-    <div class="parallax-container">
-    	<div class="parallax">
-    		<div class="title-cover valign-wrapper">
-    			<div class="text-container valign center">
-    				<h3 class="white-text">Leadership</h3>
-    			</div>
-    		</div>
-    		<img style="width:100%;" src="img/cover2.jpeg">
-    	</div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/home3.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Multifaceted Approaches</h3>
+            <p>Our work reflects the dynamic, ever-changing nature of the tech industry.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <!--Leadership contents-->
-    <section id="berkeley-leaderships" class="overview">
-        <div class="container">
-            <!--Executives-->
-            <div class="row">
-                <div class="tagline">
-                    <div class="row center">
-                    <h2 class="grey-text text-darken-2">Spring 2020 Executives</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-              <!--Shreya Sudarshana-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/shreya.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Shreya Sudarshana</span>
-                            <p><strong>President</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/sshreya/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:sshreya@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Avanthika Ramesh-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/avanthika.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Avanthika Ramesh</span>
-                            <p><strong>President</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/avanthika-ramesh/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:avanthika.ramesh@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-              <!--Raaghav Goel-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/raaghav2.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Raaghav Goel</span>
-                            <p><strong>External Vice President</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light green" href="http://www.raaghavgoel.com" target="_blank"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/raaghavgoel/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:rgoel@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-            <!--Michelle Zhang-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/michelle.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Michelle Zhang</span>
-                            <p><strong>Internal Vice President</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/michelle-l-zhang/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:michelle.zhang@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-               <!--Alexandra Lipton-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/alexandra.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Alexandra Lipton</span>
-                            <p><strong>Vice President of Projects</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/alexandra-lipton/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:liptona22@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br/>
-            <!--Project Managers-->
-            <div class="row">
-                <div class="tagline">
-                    <div class="row center">
-                    <h2 class="grey-text text-darken-2">Spring 2020 Project Managers</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- use a new "row" for every 3 people to make it more responsive-->
-            <div class="row">
-                <!--Adyant Kamdar-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/adyant.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Adyant Kamdar</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/adyant-k-03357b16b/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:adyant.kamdar@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-              <!--Julia Liu-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/julia.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Julia Liu</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/juliasliu/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:juliasliu@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Zen Thumparkkul-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/zen.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Zen Thumparkkul</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled green"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/zenthpk/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:zen.thpk@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          <div class="row">
-                <!--Denny Dang-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/denny.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Denny Dang</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/denny-dang/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:dennydang@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Zihan Wen-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/zihan.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Zihan Wen</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/zihan-wen-9aa71a17b/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:zihan.wen@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Saralynn Chick-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/saralynn.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Saralynn Chick</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/saralynnchick/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:saralynnchick@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!--Howard Yan-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/howard.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Howard Yan</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/howard-yan-47411b125/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:howardyan520@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Michael Kosasih-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/michael.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Michael Kosasih</span>
-                            <p><strong>Project Manager</strong></p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled red"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/michael-kosasih-78249352/"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:michaelkosasih@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--added br to make more space-->
-            <br/>
-        </div>
-    </section>
+  </header>
 
-    <!--Faculties Section-->
-    <!--Faculties header-->
-    <a id="faculties" class="anchor"></a>
-    <div class="parallax-container">
-    	<div class="parallax">
-    		<div class="title-cover valign-wrapper">
-    			<div class="text-container valign center">
-    				<h3 class="white-text">Faculty Advisors</h3>
-    				<p class="white-text">See what our faculty advisors advisors say about DiversaTech!</p>
-    			</div>
-    		</div>
-    		<img style="width:100%;" src="img/cover2.jpeg">
-    	</div>
+  <!-- Page Content -->
+  <div class="container py-4">
+
+    <div class="row py-4 text-center">
+      <h1 class="my-4 home-title">
+        DiversaTech is a student run technology consulting organization at UC Berkeley. We combine engineering, design, and business principles to create dynamic recommendations and strategies.
+      </h1>
     </div>
-    <!--Faculties contents-->
-    <section id="faculty-content" class="overview">
-        <div class="container">
-            <!--UC Berkeley faculty advisors-->
-            <div class="row">
-                <div class="tagline">
-                    <div class="row center">
-                    <h1 class="uppercase">UC Berkeley Faculty Advisors</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- use a new "row" for every 3 people to make it more responsive-->
-                <!--Solomon Darwin-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/solomon.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Solomon Darwin</span>
-                            <p>Executive Director, Garwood Center for Corporate Innovation</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light green" href="http://facultybio.haas.berkeley.edu/faculty-list/darwin-solomon/"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/solomondarwin"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:darwin@haas.berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Ken Singer-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/ken.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Ken Singer</span>
-                            <p>Managing Director, Sutardja Center for Entrepreneurship</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light green" href="http://ieor.berkeley.edu/node/480"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/kensinger"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:ken.singer@berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--Terry Beaubois-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/terry.png"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text text-darken-4">Terry Beaubois</span>
-                            <p>Consulting Professor, Stanford University</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light disabled green" href="http://sus.stanford.edu/courses/"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/terry-beaubois-416367"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:tbeaubois@gmail.com"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- use a new "row" for every 3 people to make it more responsive-->
-                <!--Anthony Suen-->
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/leadership/anthony.jpg"/>
-                        </div>
-                        <div class="card-content">
-                            <span class="card-titßßle grey-text text-darken-4">Anthony Suen</span>
-                            <p>Data Science Fellow, Berkeley Institute for Data Science</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="btn-floating z-depth-0 waves-effect waves-light green" href="https://bids.berkeley.edu/people/anthony-suen"><i class="material-icons">language</i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light blue" href="https://www.linkedin.com/in/anthonysuen"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn-floating z-depth-0 waves-effect waves-light red" href="mailto:anthonysuen@ischool.berkeley.edu"><i class="material-icons">email</i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+    <!-- Statistics Section -->
+    <div class="row py-4 text-center">
+      <div class="card row statistics-banner" role="alert">
+        <div class="col">
+          <h2 class="statistics-title">30+</h2>
+          <p class="lead">projects completed</p>
         </div>
-    </section>
+        <div class="col">
+          <h2 class="statistics-title">5</h2>
+          <p class="lead">years active</p>
+        </div>
+        <div class="col">
+          <h2 class="statistics-title">20+</h2>
+          <p class="lead">professional events</p>
+        </div>
+        <div class="col">
+          <h2 class="statistics-title">53</h2>
+          <p class="lead">accomplished alumni</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row py-4">
+      <div class="col-lg-6">
+        <h2>About Us</h2>
+        <p class="lead">DiversaTech fosters diversity of thought in the tech industry by creating unique experiences and projects that encourage students of all backgrounds to connect, collaborate, and create.</p>
+        <p class="lead">We form interdisciplinary consulting teams and develop strategic recommendations that address real industry challenges. Though our projects always focus on technology in some way, they have spanned a variety of disciplines including but not limited to: product management, marketing, data analysis, web and app development, design and prototyping, strategy, and implementation.</p>
+        <a href="about.html" class="btn btn-lg btn-warning">Learn More</a>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="img/index1.png" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Client Testimonials Section -->
+    <div class="row py-4">
+      <div class="col-lg-6">
+        <div class="card card-light plain-card">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p class="lead">“Quokka Brew loved working with the DiversaTech team! With a hands on approach, DiversaTech was able to offer not only valuable insights, but also acted on those insights to bring their recommendations to life. We were blown away by their professionalism as well as their strong work ethic. When the pandemic hit, DiversaTech didn’t miss a beat, sticking to the original schedule and delivering an amazing app prototype for us to take to the next step of development. Thank you DiversaTech!”</p>
+              <footer class="blockquote-footer row">
+                <div class="col col-xs-6">
+                  <h4>Gabriel Bloch</h4>
+                  <cite title="Source Title">Head of Business Development & Strategy, <a href="https://www.quokkabrew.com/">Quokka Brew</a></cite>
+                </div>
+                <div class="col col-xs-6 text-md-right">
+                  <img src="img/companies/spring_2020/quokka_brew_icon.png" alt="profile" />
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card card-light plain-card">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p class="lead">“DiversaTech’s in-depth competitive analysis and personalized recommendations jumpstarted PayPal’s entry into a new product space. The team persevered in understanding the complexities of the fintech landscape, apparent by their preparation and professionalism in each meeting. We enjoyed working with DiversaTech and look forward to maintaining our relationship with the team.”</p>
+              <footer class="blockquote-footer row">
+                <div class="col col-xs-6">
+                  <h4>Product Manager</h4>
+                  <cite title="Source Title"><a href="https://www.paypal.com/">PayPal</a></cite>
+                </div>
+                <div class="col col-xs-6 text-md-right">
+                  <img src="img/companies/fall_2019/paypal_icon.png" alt="profile" />
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
 </body>
 
 <!--footer bar-->
 <div id='footer-container'></div>
 
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<!--Import Materialize.js-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<!--Import custom.js-->
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!--Import custom scripts -->
 <script type="text/javascript" src="js/custom.js"></script>
-<!--Import intro_massage.js-->
-<script type="text/javascript" src="js/intro_message.js"></script>

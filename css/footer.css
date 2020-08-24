@@ -1,48 +1,34 @@
-footer.page-footer {
-    margin-top: 0;
-    min-height: 400px;
-    background-color: #fb8c00;
-    // background-image: url(../img/footer-background.png);
-    background-size: 100% auto;
+.page-footer {
+  background-color: #fb8c00 !important;
+  color: #fff;
 }
-footer.page-footer div.footer-content {
-    height: 300px;
+
+.page-footer li {
+  padding: 2px 0;
 }
-footer.page-footer div.footer-content div.footer-container {
-    width: 100%}
-footer.page-footer div.footer-content div.footer-container h5 {
-    font-family: "Tinos", sans-serif;
-    font-size: 1.2em;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+
+.page-footer a {
+  color: #fff;
 }
-footer.page-footer div.footer-content div.footer-container ul li a:hover {
-    color: #fff!important;
-    -webkit-transition: all ease .4s;
-    transition: all ease .4s;
+
+.page-footer a:hover {
+  text-decoration: none;
 }
-@media only screen and (max-width:992px) {
-    nav a.brand-logo div.logo img {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
+
+.page-footer .footer-links,
+.page-footer .footer-copyright {
+  padding-right: 6%;
+  padding-left: 6%;
 }
-footer.page-footer div.footer-content {
-    height: 320px;
+
+@media (min-width: 600px)
+.page-footer .footer-links,
+.page-footer .footer-copyright {
+    padding-right: 2%;
+    padding-left: 2%;
 }
-footer.page-footer div.footer-content div.footer-container h5 {
-    font-size: .9em;
-}
-}@media only screen and (max-width:600px) {
-    footer.page-footer {
-    background-size: auto 100%}
-footer.page-footer div.footer-content {
-    height: 720px;
-}
-footer.page-footer div.footer-content ul li {
-    padding: 3px 0;
-}
-}footer.page-footer div.signature {
-    color: #D9D1C7;
-    padding-bottom: 1em;
+
+.page-footer .footer-copyright {
+  color: rgba(255,255,255,0.6);
+  background-color: rgba(0,0,0,0.1);
 }

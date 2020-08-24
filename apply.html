@@ -2,197 +2,188 @@
 <html lang="en-us" ng-app="MB" prefix="og: http://ogp.me/ns#">
 <head>
 
-  <!-- <base href="/"> -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
-  <!--Import google_analytics.js-->
-  <script type="text/javascript" src="js/google_analytics.js"></script>
-
   <!-- Meta Tags for SEO -->
-  <title>DiversaTech</title>
+  <title>DiversaTech Consulting</title>
   <meta name='subject' content='Consulting' />
-  <meta name='description' content="DiversaTech is UC Berkeley's tech consultancy. We are unique from other consulting organizations because we combine both engineering and business principles to create dynamic recommendations and strategies." />
+  <meta name='description' content="DiversaTech Consulting is UC Berkeley's tech consultancy. We are unique from other consulting organizations because we combine both engineering and business principles to create dynamic recommendations and strategies." />
   <meta name='keywords' content='DiversaTech, DiversaTech berkeley, cal DiversaTech, consulting, diversatech consulting, berkeley' />
   <meta name='url' content='http://diversatech.org' />
-  <meta name='reply-to' content='president@diversa.tech' />
-  <meta name='copyright' content='DiversaTech'>
+  <meta name='copyright' content='DiversaTech' />
   <meta name='robots' content='index, follow' />
 
   <!-- FAVICON -->
-  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png?v=2">
-  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png?v=2">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png?v=2">
-  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png?v=2">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png?v=2">
-  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png?v=2">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png?v=2">
-  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png?v=2">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png?v=2">
-  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png?v=2">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png?v=2">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png?v=2">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png?v=2">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/custom.css" rel="stylesheet">
 
   <!--Import Google Icon Font-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!--Import Google Font-->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
-  <!--preloader, change pace.css for different themes-->
-  <!-- <script src="js/pace.js"></script> -->
-  <!-- <link href="css/pace.css" rel="stylesheet" /> -->
+  <!--Import Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-  <!--Import materialize css-->
-  <link rel="stylesheet" href="css/materialize.min.css">
-  <!--Import cover css-->
-  <link rel="stylesheet" href="css/cover.css">
-  <!--Import overview.css-->
-  <link rel="stylesheet" href="css/overview.css">
-  <!--Import custom_tab.css-->
-  <link rel="stylesheet" href="css/custom_tab.css">
-
-  <style>
-    body{
-          background-color: orange;
-    }
-  </style>
+  <!--Timeline -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
-<!--navbar-->
+<!--navigation bar-->
 <div id='nav-container'></div>
 
 <body>
 
-    <!--header-->
-    <a id="application" class="anchor"></a>
-    <div class="parallax-container">
-      <div class="parallax">
-        <div class="title-cover valign-wrapper">
-          <div class="text-container valign center">
-            <h3 class="white-text">Spring 2020 Application</h3>
+  <!-- Page Content -->
+  <div class="container my-5">
+
+    <!-- Apply Section -->
+    <div class="row px-3">
+      <h1 class="page-title">Fall 2020 Recruitment</h1>
+    </div>
+    <!--Timeline -->
+    <div class="row py-3">
+      <div class="container">
+        <!--first section-->
+        <div class="row align-items-center how-it-works d-flex">
+          <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+            <div class="circle font-weight-bold">1</div>
+          </div>
+          <div class="col-6">
+            <h5><b>Infosession 1:</b> September 8th</h5>
+            <h6><b>Zoom link TBD</b></h6>
+            <h6><b>8-10 pm</b></h6>
+            <p>Join us at one of DiversaTech's infosessions to learn about what we do and how we embody diversity! Meet our DiversaFam and explore what we offer to all majors, backgrounds, and interests. This is also your opportunity to get information on our upcoming projects and events.</p>
+          </div>
+        </div>
+        <!--path between 1-2-->
+        <div class="row timeline">
+          <div class="col-2">
+            <div class="corner top-right"></div>
+          </div>
+          <div class="col-8">
+            <hr/>
+          </div>
+          <div class="col-2">
+            <div class="corner left-bottom"></div>
+          </div>
+        </div>
+        <!--second section-->
+        <div class="row align-items-center justify-content-end how-it-works d-flex">
+          <div class="col-6 text-right">
+            <h5><b>Infosession 2:</b> September 10th</h5>
+            <h6><b>Zoom link TBD</b></h6>
+            <h6><b>8-10 pm</b></h6>
+            <p>If you aren't able to attend Infosession 1, Infosession 2 will cover the same information. This is a great opportunity to network with our members and ask any questions you may have about our organization. Find out what your DiversaTech experience could be like!</p>
+          </div>
+          <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+            <div class="circle font-weight-bold">2</div>
+          </div>
+        </div>
+        <!--path between 2-3-->
+        <div class="row timeline">
+          <div class="col-2">
+            <div class="corner right-bottom"></div>
+          </div>
+          <div class="col-8">
+            <hr/>
+          </div>
+          <div class="col-2">
+            <div class="corner top-left"></div>
+          </div>
+        </div>
+      <!--third section-->
+        <div class="row align-items-center how-it-works d-flex">
+          <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+            <div class="circle font-weight-bold">3</div>
+          </div>
+          <div class="col-6">
+            <h5><b>Applications Due:</b> September 11th, 1 pm</h5>
+            <p>Our application can be found linked below. It consists of several written response questions and a resume submission.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!--application link-->
-    <section id="application-content" class="overview">
-        <div class="container row">
-              <div class="col s12">
-                  <div class="row">
-                      <div class="col s12 m12">
-                          <div class="card">
-                              <div class="card-action">
-                                  <p> Deadline: <b>Friday, January 31st, 1PM</b></p>
-                                  <a class="waves-effect waves-light btn z-depth-0 orange darken-1" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdMDIuqidB65V5sbVj9TwvBn4PAt0xdWjB9uuPckOQYaWyE_A/viewform?vc=0&c=0&w=1">Apply Here!</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-    </section>
-
-
-
-    <!--faq-->
-    <a id="faq" class="anchor"></a>
-    <div class="parallax-container">
-      <div class="parallax">
-        <div class="title-cover valign-wrapper">
-          <div class="text-container valign center">
-            <h3 class="white-text">Frequently Asked Questions</h3>
-          </div>
-        </div>
+    <!-- <div class="row py-4 flyer-container">
+      <div class="col-lg-6">
+        <img src="img/flyer/spring_2020/sp_2020_front.png"/>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/flyer/spring_2020/sp_2020_back.png"/>
+      </div>
+    </div> -->
+    <div class="row pt-4 px-3 text-center">
+      <a href="" target="_blank" class="btn btn-lg btn-warning">Apply now</a>
+    </div>
+    <div class="row py-4 px-3 text-center justify-content-center">
+      <div class="col-lg-6">
+          <a href="recruitment.html" class="btn btn-lg btn-light mx-3">Recruitment Guide</a>
+          <a href="faq.html" target="_blank" class="btn btn-lg btn-light mx-3">FAQ</a>
       </div>
     </div>
 
+    <!-- DiversaFam Section -->
+    <div class="row px-3">
+      <h1 class="page-title">#DiversaFam</h1>
+    </div>
+    <div class="row py-4 gallery-container">
+      <div class="col">
+        <img src="img/social/dtfam_1.png"/>
+      </div>
+      <div class="col">
+        <img src="img/social/dtfam_2.png"/>
+      </div>
+    </div>
+    <div class="row py-4 gallery-container">
+      <div class="col">
+        <img src="img/social/dtfam_3.png"/>
+      </div>
+      <div class="col">
+        <img src="img/social/dtfam_4.png"/>
+      </div>
+    </div>
 
+  </div>
+  <!-- /.container -->
 
-    <section id="faq-content" class="overview">
-        <div class="container">
-            <div class="row">
-              <div class="col s12">
-                  <div class="card sticky-action small">
-                      <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/apply/faq1.jpeg"/>
-                      </div>
-                      <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-                          <p>How is DiversaTech different from other consulting clubs?<p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                        <p>We welcome students of all majors and experiences to DiversaTech! Contrary to popular belief,  tech companies (at least successful ones) do not only hire only computer science + business majors. DiversaTech emulates this belief that interdisciplinary teams discover the most robust solutions to challenging problems. As practice (in DiversaTech) makes perfect (in your career), join DiversaTech to have a head start!</p>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col s12">
-                  <div class="card sticky-action small">
-                      <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/apply/faq2.jpg"></img>
-                      </div>
-                      <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-                          <p>I have no experience consulting. Does it make sense for me to apply to DiversaTech?<p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                        <p>Your unique background is an asset to our organization! We want to see that you have demonstrated strong interest and passion in your past activities (not necessarily tech related). Once you join the club, we hold a bootcamp series which will bring you up to speed. Your decision to apply should be a no-brainer!</p>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col s12">
-                  <div class="card sticky-action small">
-                      <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/apply/faq3.jpg"></img>
-                      </div>
-                      <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-                          <p>What is DiversaTech's project structure?<p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                        <p>DiversaTech's project structure consists of 4 project teams, each with 2 project managers and 6-7 consultants. Each team is in charge of addressing the needs of the specific corporate partner they work with.</p>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col s12">
-                  <div class="card sticky-action small">
-                      <div class="card-image waves-effect waves-block waves-light">
-                          <img class="activator" src="img/apply/faq4.jpg"></img>
-                      </div>
-                      <div class="card-content">
-                          <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
-                          <p> What does DiversaTech do to ensure success? <p>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
-                        <p>DiversaTech recruits some of the brightest, passionate, and hard-working students at Cal. Through an organized timeline and effective leadership, we hope to deliver the most value to our clients.</p>
-                      </div>
-                  </div>
-              </div>
-            </div>
-        <p><strong>Message us on <a href="https://www.facebook.com/diversatechberkeley/"> Facebook </a> if you have any questions. Feel free to drop a like :)</strong></p>
-        </div>
-    </section>
 </body>
 
-<!--footer-->
+<!--footer bar-->
 <div id='footer-container'></div>
 
-<!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<!--Import Materialize.js-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 <!--Import custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
-<!--Import apply_massage.js-->
+<!--Import apply_massege.js-->
 <script type="text/javascript" src="js/apply_message.js"></script>
+
+</html>
