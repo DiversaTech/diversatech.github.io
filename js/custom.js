@@ -4,5 +4,5 @@ $(document).ready(function() {
     // importing footer
     $('#footer-container').load('footer.html');
     // parallax
-    $('.parallax').parallax();
+    // $('.parallax').parallax();
 });
