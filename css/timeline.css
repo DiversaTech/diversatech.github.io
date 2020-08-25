@@ -4,7 +4,7 @@
 	 position: relative;
 }
 .timeline div {
-	height: auto;
+	height: auto !important;
 }
  .timeline:before {
 	 top: 40px;
