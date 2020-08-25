@@ -29,7 +29,7 @@
  .timeline .timeline-item .timeline-badge {
 	 color: #fff;
 	 width: 24px;
-	 height: 24px;
+	 height: 24px !important;
 	 line-height: 50px;
 	 font-size: 22px;
 	 text-align: center;
