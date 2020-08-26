@@ -153,27 +153,6 @@
           <button type="submit" class="btn btn-primary" id="sendMessageButton" name="action" value="Send">Submit</button>
         </form>
 
-        <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function() {
-          'use strict';
-          window.addEventListener('load', function() {
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.getElementsByClassName('needs-validation');
-            // Loop over them and prevent submission
-            var validation = Array.prototype.filter.call(forms, function(form) {
-              form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                  event.preventDefault();
-                  event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-              }, false);
-            });
-          }, false);
-        })();
-        </script>
-
       </div>
 
     </div>
@@ -213,8 +192,8 @@
 
 <!-- Contact form JavaScript -->
 <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-<!-- <script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script> -->
+<!-- <script src="js/jqBootstrapValidation.js"></script> -->
+<script src="js/contact_me.js"></script>
 
 <!--Import custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
