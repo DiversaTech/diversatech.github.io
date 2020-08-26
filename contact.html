@@ -96,52 +96,63 @@
     <div class="row py-4">
       <div class="col-lg-12 mb-4">
         <h1 class="page-title">Client Request Form</h1>
-        <form name="sentMessage" id="contactForm" novalidate  method="post" action="https://formspree.io/diversatech.berkeley@gmail.com">
-          <input type="hidden" name="_subject" value="Client Request Form Submission" />
-          <input type="hidden" name="_next" value="//diversatech.org/thanks.html" />
+        <form name="sentMessage" id="contactForm" class="needs-validation" novalidate method="POST" action="https://formspree.io/diversatech.berkeley@gmail.com">
+          <input type="hidden" name="_subject" value="Client Request" />
           <div class="form-row">
-            <div class="col">
-              <div class="form-group">
-                <label class="col-form-label" for="name-title">Title</label>
-                <select class="form-control" id="name-title">
-                  <option value="" disabled selected>Select Title</option>
-                  <option value="Mr.">Mr.</option>
-                  <option value="Ms.">Ms.</option>
-                  <option value="Mrs.">Mrs.</option>
-                  <option value="Dr.">Dr.</option>
-                </select>
-              </div>
-            </div>
             <div class="col">
               <div class="form-group">
                 <label class="col-form-label" for="first_name">First name</label>
                 <input type="text" class="form-control" placeholder="John" id="first_name" name="first name" required data-validation-required-message="Please enter your first name.">
+                <div class="invalid-feedback">
+                  Please enter a valid first name.
+                </div>
               </div>
             </div>
             <div class="col">
               <div class="form-group">
                 <label class="col-form-label" for="last_name">Last name</label>
                 <input type="text" class="form-control" placeholder="Appleseed" id="last_name" name="last name" required data-validation-required-message="Please enter your last name.">
+                <div class="invalid-feedback">
+                  Please enter a valid last name.
+                </div>
               </div>
             </div>
           </div>
           <div class="form-group">
             <label for="email">Email address</label>
-            <input type="email" class="form-control" placeholder="john@appleseed.com" id="email" name="email" aria-describedby="emailHelp" required data-validation-required-message="Please enter your email address.">
+            <input type="email" class="form-control" placeholder="john@appleseed.com" id="email" name="_replyto" aria-describedby="emailHelp" required data-validation-required-message="Please enter your email address.">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
           </div>
           <div class="form-group">
             <label for="company">Company Name</label>
             <input type="text" class="form-control" placeholder="Apple" id="company" name="company" required data-validation-required-message="Please enter your company name.">
+            <div class="invalid-feedback">
+              Please enter a valid company name.
+            </div>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows="5" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            <textarea class="form-control" id="message" name="message" rows="5" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+            <div class="invalid-feedback">
+              Please enter a valid message.
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="newsletter" checked>
+              <label class="form-check-label" for="newsletter">
+                Subscribe to our newsletter
+              </label>
+            </div>
           </div>
           <div id="success"></div>
           <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton" name="action" value="Send" data-toggle="modal" data-target="#submitForm">Submit</button>
+          <button type="submit" class="btn btn-primary" id="sendMessageButton" name="action" value="Send">Submit</button>
         </form>
+
       </div>
 
     </div>
@@ -186,5 +197,4 @@
 
 <!--Import custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
-
 </html>
