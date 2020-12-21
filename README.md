@@ -11,7 +11,7 @@
 <p align="center">
   
   <a href="http://diversatech.org/">	
-    <img src="img/website.png" alt="DiversaTech_Home_Page" width="490" height="124">	
+    <img src="img/website.png" alt="DiversaTech_Home_Page" width="654" height="350">	
   </a>
 
   <h3 align="center">DiversaTech</h3>
