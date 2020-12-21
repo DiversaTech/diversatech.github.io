@@ -112,7 +112,6 @@ Do not make changes to any other folders or files not listed below.
     │   └── ...                 # other home page images
     ├── js                      # JS scripts
     |   ├── custom.js           # custom scripts
-    │   └── ...                 
     ├── index.html              # Home page
     ├── nav.html                # Header navbar
     ├── footer.html             # Footer
