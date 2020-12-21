@@ -112,15 +112,10 @@
 
     <!-- Medium Blog Content -->
     <div class="row px-3">
-      <h1 class="page-title">Blog Posts</h1>
+      <h1 class="page-title">Check out our Blog</h1>
     </div>
     <div class="row py-4 px-3">
-      <div id="retainable-rss-embed" data-rss="https://medium.com/feed/diversatech"
-      data-maxcols="3"
-      data-layout="slider"
-      data-readmore="Read more"
-      data-buttonclass="btn btn-primary">
-      </div>
+      <div id="medium-widget"></div>
     </div>
 
     <!-- Instagram Content -->
@@ -139,7 +134,8 @@
 
 <!--Import custom.js-->
 <script type="text/javascript" src="js/custom.js"></script>
-<!--Medium-->
-<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+<!-- Medium -->
+<script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+<script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/diversatech","postsPerLine":4,"limit":4,"picture":"big","fields":["description","claps","publishAt"],"ratio":"landscape"}})</script>
 
 </html>
