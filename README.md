@@ -138,8 +138,6 @@ This project is under the MIT License.
 
 DiversaTech - [Email](diversatech.berkeley@gmail.com)
 
-Julia Liu - [Email](juliasliu@berkeley.edu)
-
 Project Link: [https://github.com/DiversaTech/diversatech.github.io/](https://github.com/DiversaTech/diversatech.github.io/)
 
 
