@@ -4,7 +4,7 @@
 }
 
 .page-title {
-  color: #fb8c00;
+  color: #fd7f00;
   font-weight: 700;
 }
 
@@ -50,7 +50,7 @@
 
 .statistics-banner .statistics-title {
   margin-top: 1rem;
-  color: #fb8c00;
+  color: #fd7f00;
   font-weight: 700;
 }
 
@@ -126,7 +126,7 @@
 .service-icon-container i {
   margin: auto;
   color: #fff;
-  background: #fb8c00;
+  background: #fd7f00;
   padding: 1rem;
   border-radius: 50%;
   width: 50px;
